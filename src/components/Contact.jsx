@@ -88,7 +88,7 @@ const Contact = () => {
               </button>
 
               <a
-                href="resume.pdf"
+                href="Deepanshu Kashyap Resume.pdf"
                 download
                 className="block text-center bg-gradient-to-r from-[#00FF99] to-[#00CC66] text-[#0A0A0A] px-6 py-3 rounded-lg hover:from-[#00CC66] hover:to-[#009933] transition-all duration-300 font-inter font-semibold"
               >

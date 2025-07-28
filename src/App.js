@@ -8,6 +8,9 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/footer";
+import TopNavBar from './components/TopNavbar';
+import SideNavBar from './components/sidebar';
+import Dashboard from './components/Dashboard';
 
 const App = () => (
   <div className="bg-black text-white scroll-smooth">
