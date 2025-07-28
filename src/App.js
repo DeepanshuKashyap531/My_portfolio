@@ -5,7 +5,7 @@ import About from "./components/About";
 import Education from "./components/Education";
 import Certificates from "./components/Certificates";
 import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/footer";
 
@@ -24,7 +24,6 @@ const App = () => (
       <Contact />
     </main>
     <Footer />
-    <TopNavBar />
 
   </div>
   

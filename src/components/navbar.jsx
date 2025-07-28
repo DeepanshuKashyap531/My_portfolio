@@ -31,7 +31,7 @@ const NavBar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-6 font-inter">
-          {['intro', 'about', 'education', 'certificates', 'skills', 'projects', 'contact'].map((section) => (
+          {['intro', 'about', 'education', 'certificates', 'skills', 'contact'].map((section) => (
             <button
               key={section}
               className="hover:text-[#00FF99] font-semibold transition-colors duration-300 capitalize relative group"
@@ -48,7 +48,7 @@ const NavBar = () => {
       {isOpen && (
         <div className="md:hidden bg-gradient-to-r from-[#0A0A0A] to-[#1A2A2A] shadow-lg shadow-[#00FF99]/20 mt-2 rounded-b-lg transition-all duration-300">
           <div className="flex flex-col items-center space-y-4 py-4 font-inter">
-            {['intro', 'about', 'education', 'certificates', 'skills', 'projects', 'contact'].map((section) => (
+            {['intro', 'about', 'education', 'certificates', 'skills', 'contact'].map((section) => (
               <button
                 key={section}
                 className="hover:text-[#00FF99] text-lg font-semibold transition-colors duration-300 capitalize"
