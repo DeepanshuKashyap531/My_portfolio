@@ -3,26 +3,12 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      name: "E-commerce Platform",
-      desc: "A full-stack e-commerce website with payment integration",
-      url: "https://example.com/ecommerce",
-      image:
-        "https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=1305&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
       name: "Data Dashboard",
       desc: "Interactive dashboard for data visualization using Tableau",
-      url: "https://example.com/dashboard",
+      url: "https://powerbi-project001.netlify.app/",
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      name: "Task Manager",
-      desc: "React-based task management application with MongoDB backend",
-      url: "https://example.com/taskmanager",
-      image:
-        "https://images.unsplash.com/photo-1707761918029-1295034aa31e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+    }
   ];
 
   return (
